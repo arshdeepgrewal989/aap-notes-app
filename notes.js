@@ -25,7 +25,7 @@ const addNote = (title, body) => {
         saveNotes(notes)
         console.log(chalk.bgGreenBright.inverse('Note successfully added.'))
     } else {
-        console.log(chalk.bgRedBright('Err: Conflicting name with a previous note.'))
+        console.log(chalk.bgRedBright('Error: Conflicting name with a previous note.'))
     }
 
     
